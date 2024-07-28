@@ -1,0 +1,94 @@
+body{
+    padding:50px;
+}
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-group{
+    margin-bottom:30px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: #343a40; 
+    color: white;
+    padding: 10px 20px;
+}
+
+.nav .logo {
+    font-size: 1.5em;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-box {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 48%;
+    text-align: center;
+}
+
+.bottom {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.bottom .btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.bottom .btn:hover {
+    background-color: #c9302c;
+}
+
+.bottom .logout-btn {
+    background-color: #f0ad4e;
+    color: #343a40;
+}
+
+.bottom .logout-btn:hover {
+    background-color: #ec971f;
+}   
+
+.bottom .btn-primary {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.bottom .btn-primary:hover {
+    background-color: #0b5ed7;
+    color: #ffffff;
+}
